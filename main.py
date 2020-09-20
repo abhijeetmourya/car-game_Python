@@ -18,12 +18,12 @@ raw_sian = pygame.image.load('sian.png')
 raw_police = pygame.image.load('police.png')
 raw_bg = pygame.image.load('images.jpg')
 raw_lose = pygame.image.load('lose.png')
-raw_replay = pygame.image.load('1420678-200.png')
+
 sian = pygame.transform.scale(raw_sian, (200, 200))
 police = pygame.transform.scale(raw_police, (200, 200))
 bg = pygame.transform.scale(raw_bg, (400, 600))
 lose = pygame.transform.scale(raw_lose, (300, 300))
-replay = pygame.transform.scale(raw_replay, (100, 100))
+
 
 #coordinates
 sian_x = 200
